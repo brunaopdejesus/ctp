@@ -1,2 +1,2 @@
-# computational thinking with python
-projects made in python with and without orientation
+# computational thinking with python :computer:	
+projects made in python with or without orientation
