@@ -1,2 +1,1 @@
-# computational thinking with python 
-💻 projects made in python with or without orientation
+# 💻 computational thinking with python 
