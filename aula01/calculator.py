@@ -12,13 +12,13 @@ operacaoDesejada = int(input("\nEscolha a operação desejada:\n1 - Adição"
 primeiroValorUser = int(input("Escolha o primeiro número:\n"))
 segundoValorUser = int(input("Escolha o segundo número:\n"))
 
-if operacaoDesejada == 1 :
+if operacaoDesejada == 1:
     resposta = primeiroValorUser + segundoValorUser
     print("O resultado da soma é", resposta)
-elif operacaoDesejada == 2 :
+elif operacaoDesejada == 2:
     resposta = primeiroValorUser - segundoValorUser
     print("O resultado da subtração é", resposta)
-elif operacaoDesejada == 3 :
+elif operacaoDesejada == 3:
     resposta = primeiroValorUser * segundoValorUser
     print("O resultado da multiplicação é", resposta)
 elif operacaoDesejada == 4:
@@ -33,5 +33,5 @@ elif operacaoDesejada == 6:
 elif operacaoDesejada == 7:
     resposta = primeiroValorUser ** segundoValorUser
     print("O resultado da exponenciação é", resposta)
-else :
+else:
     print("Não foi possível realizar a operação, insira uma opção válida :)")

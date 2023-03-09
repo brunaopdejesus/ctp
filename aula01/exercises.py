@@ -1,20 +1,20 @@
 # dado um número pelo usuário, calcular o dobro
 print("\n* CALCULATING DOUBLE *")
-nmbUser = float(input("Insert the number:"))
+nmbUser = float(input("Enter the number:"))
 answerUser = nmbUser * 2
 print(f"The double of {nmbUser} is {answerUser}")
 
 # dados os valor de a, b e c, calcular o valor de delta
 print("\n* CALCULATING DELTA MATH*")
-a = float(input("Insert value a:"))
-b = float(input("Insert value b:"))
-c = float(input("Insert value c:"))
+a = float(input("Enter value a:"))
+b = float(input("Enter value b:"))
+c = float(input("Enter value c:"))
 delta = b**2 - 4 * a * c
 print(f"The delta math is {delta}")
 
 # dado um número pelo usuário, calcular o seu cubo
 print("\n* CALCULATING CUBE *")
-nmbUser = float(input("Insert the number:"))
+nmbUser = float(input("Enter the number:"))
 answerUser = nmbUser ** 3
 print(f"The cube of {nmbUser} is {answerUser}")
 
@@ -23,8 +23,8 @@ print(f"The cube of {nmbUser} is {answerUser}")
 # entrada: 345.6 | saída: 13.6
 # entrada: 556.1 | saída: 9.31
 print("\n* CALCULATING HOW MANY KM/L DID YOUR CAR TRAVEL *")
-km = float(input("Insert the kilometers:"))
-gas = float(input("Insert the liters of the gas:"))
+km = float(input("Enter how many kilometers you traveled:"))
+gas = float(input("Enter how many liters of gas were used:"))
 answerKmL = km / gas
 print(f"Your car traveled {answerKmL:.2f} km/L")
 
