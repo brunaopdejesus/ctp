@@ -32,18 +32,18 @@
 
 # dada uma venda, efetuar o desconto devido
 # se for > que 500, desconto de 12%. senoa, desconto de 6%
-valor = int(input("insira o valor da venda"))
-if valor > 500:
-    desconto = valor * 0.88
-    # desconto = valor * 0.05
-    # valorDescontado = valor - desconto
-    print(desconto)
-# elif valor > 1000:
-    # desconto = valor * 0.88
-    # print(desconto)
-else:
-    desconto = valor * 0.94
-    print(desconto)
+# valor = int(input("insira o valor da venda"))
+# if valor > 500:
+#     desconto = valor * 0.88
+#     # desconto = valor * 0.05
+#     # valorDescontado = valor - desconto
+#     print(desconto)
+# # elif valor > 1000:
+#     # desconto = valor * 0.88
+#     # print(desconto)
+# else:
+#     desconto = valor * 0.94
+#     print(desconto)
 
 ''' a partir de uma venda, o cliente ganha 12% se for acima de 500
 ou 12% abaixo. caso ele tenha um cupom, ganhará mais 20 reais de desconto
@@ -55,6 +55,17 @@ tem cupom? [s]im ou [n]ão: s
 venda: 5000
 com desconto: 4380
 '''
+
+sale = float(input("Enter the value of the sale:"))
+saleDiscount = sale * 0.88
+
+coupon = input("Do you have a coupon (s/n)):")
+if coupon == "s":
+    saleDiscountCoupon = saleDiscount - 20
+    print(f"The value of the sale was ${sale:.2f}\nWith the discount and the coupon you will pay ${saleDiscountCoupon:.2f}")
+else:
+    print(f"The value of the sale was ${sale:.2f}\nWith the discount is ${saleDiscount:.2f}")
+
 
 
 
