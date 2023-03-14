@@ -60,11 +60,11 @@ sale = float(input("Enter the value of the sale:"))
 saleDiscount = sale * 0.88
 
 coupon = input("Do you have a coupon (s/n)):")
-if coupon == "s":
+if coupon == "s" or coupon == "S":
     saleDiscountCoupon = saleDiscount - 20
-    print(f"The value of the sale was ${sale:.2f}\nWith the discount and the coupon you will pay ${saleDiscountCoupon:.2f}")
+    print(f"The value of the sale was ${sale:.2f}\nWith the discount and the coupon you're going to pay ${saleDiscountCoupon:.2f}")
 else:
-    print(f"The value of the sale was ${sale:.2f}\nWith the discount is ${saleDiscount:.2f}")
+    print(f"The value of the sale was ${sale:.2f}\nWith the discount you're going to pay ${saleDiscount:.2f}")
 
 
 
