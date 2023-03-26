@@ -107,7 +107,25 @@ grade3 = float(input("enter the third grade:"))
 '''
 10. Dentre três números dados pelo usuário, verificar e exibir o de maior valor.
 '''
+nbm1 = int(input("enter the first number: "))
+nbm2 = int(input("enter the second number: "))
+nbm3 = int(input("enter the third number: "))
 
+if (nbm1 > nbm2) and (nbm1 > nbm3):
+    print(nbm1)
+elif (nbm2 > nbm1) and (nbm2 > nbm3):
+    print(nbm2)
+# elif (nbm3 > nbm1) and (nbm3 > nbm2):
+#     print(nbm3)
+else:
+    print(nbm3)
+
+'''
+14. Dados três números pelo usuário, exibi-los em ordem crescente.
+'''
+nbm1 = int(input("enter the first number: "))
+nbm2 = int(input("enter the second number: "))
+nbm3 = int(input("enter the third number: "))
 
 
 
