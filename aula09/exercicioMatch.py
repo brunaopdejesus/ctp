@@ -21,6 +21,10 @@ Reajuste
         senao mensagem de erro e termina o programa
 '''
 
+salario = input("Digite seu salário: ")
+
+
+
 sal = float(input("Salario: "))
 if sal < 0:
     print ("ERRO! Digite um salário positivo!")
