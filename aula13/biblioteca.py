@@ -48,6 +48,13 @@ def intervalo2(inicio: float, fim: float, abertoOuFechado: str) -> None:
 #     else:
 #         print(100)
 
+def prox_mult_5(inicio: int) -> int:
+    fim = 0
+    for cont in range(inicio, fim, 5):
+        if
+
+
+
 # def prox_mult(numero: int, multiplo: int) -> int:
 
 def fatorial(numero: float) -> float:
